@@ -72,6 +72,27 @@ body {
   margin-top: 30px;
 }
 
+.links {
+  margin-top: 100px;
+}
+
+.links .awal {
+  margin-top: 50px;
+}
+
+.links a {
+  padding: 10px 0;
+  width: 145.067px;
+  height: 47.333px;
+  margin-top: 30px;
+}
+
+.links h3 span {
+  font-weight: 800;
+  color: #e94560;
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 768px) {
   .jumbotron .display-4 {
     font-size: 24px;
