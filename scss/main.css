@@ -74,7 +74,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .jumbotron .display-4 {
-    font-size: 30px;
+    font-size: 24px;
   }
   .jumbotron .lead {
     font-size: 12px;
