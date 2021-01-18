@@ -62,6 +62,13 @@
   margin-top: 100px;
 }
 
+#backToTop {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .jumbotron {
     .display-4 {

@@ -7,6 +7,10 @@ body {
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: #0f0e20;
   font-weight: 600;
@@ -22,6 +26,10 @@ body {
   background-color: #0f0e20;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .jumbotron {
@@ -93,6 +101,13 @@ body {
   font-size: 24px;
 }
 
+#backToTop {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .jumbotron .display-4 {
     font-size: 24px;
@@ -118,5 +133,9 @@ body {
   background-color: #0f0e20;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=main.css.map */
