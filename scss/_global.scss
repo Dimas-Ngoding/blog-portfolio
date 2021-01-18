@@ -1,0 +1,12 @@
+// Colors Variable
+$bg: #0f0e20;
+$bg2: #1a1a2e;
+$main: #f05454;
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+body {
+  background-color: $bg;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}

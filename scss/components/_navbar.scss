@@ -1,0 +1,11 @@
+@import "../global";
+
+.navbar {
+  span {
+    font-weight: 800;
+    color: $main;
+  }
+  background-color: $bg;
+  font-weight: 600;
+  padding: 35px 0;
+}
