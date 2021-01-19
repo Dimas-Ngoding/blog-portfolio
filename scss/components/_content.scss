@@ -3,6 +3,9 @@
 .jumbotron {
   background-color: $bg;
   font-family: "Poppins", sans-serif;
+  .lead {
+    padding: 0 200px;
+  }
   .display-4 {
     span {
       color: $main;
@@ -75,6 +78,7 @@
       font-size: 24px;
     }
     .lead {
+      padding: 0 20px;
       font-size: 12px;
     }
   }

@@ -11,6 +11,17 @@ html {
   scroll-behavior: smooth;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f05454;
+  background: #ffffff;
+}
+
+::selection {
+  color: #f05454;
+  background: #ffffff;
+}
+
 .navbar {
   background-color: #0f0e20;
   font-weight: 600;
@@ -32,9 +43,24 @@ html {
   scroll-behavior: smooth;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f05454;
+  background: #ffffff;
+}
+
+::selection {
+  color: #f05454;
+  background: #ffffff;
+}
+
 .jumbotron {
   background-color: #0f0e20;
   font-family: "Poppins", sans-serif;
+}
+
+.jumbotron .lead {
+  padding: 0 200px;
 }
 
 .jumbotron .display-4 {
@@ -113,6 +139,7 @@ html {
     font-size: 24px;
   }
   .jumbotron .lead {
+    padding: 0 20px;
     font-size: 12px;
   }
   .skill .card .row:nth-child(2) img {
@@ -137,5 +164,16 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f05454;
+  background: #ffffff;
+}
+
+::selection {
+  color: #f05454;
+  background: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
