@@ -110,18 +110,33 @@ html {
   margin-top: 100px;
 }
 
+.links .abt-me {
+  padding: 0 200px;
+}
+
 .links .awal {
   margin-top: 50px;
 }
 
-.links a {
-  padding: 10px 0;
-  width: 145.067px;
-  height: 47.333px;
-  margin-top: 30px;
+.links h3 span {
+  font-weight: 800;
+  color: #e94560;
+  font-size: 24px;
 }
 
-.links h3 span {
+.terakhir {
+  margin-top: 100px;
+}
+
+.terakhir a {
+  width: 204.9px;
+}
+
+.terakhir .deskripsi-kerja {
+  padding: 0 300px;
+}
+
+.terakhir h3 span {
   font-weight: 800;
   color: #e94560;
   font-size: 24px;
@@ -144,6 +159,12 @@ html {
   }
   .skill .card .row:nth-child(2) img {
     margin-top: 50px;
+  }
+  .links .abt-me {
+    padding: 0 20px;
+  }
+  .terakhir .deskripsi-kerja {
+    padding: 0 20px;
   }
 }
 
