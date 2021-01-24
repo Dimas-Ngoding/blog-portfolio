@@ -8,6 +8,7 @@ body {
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -142,6 +144,68 @@ html {
   font-size: 24px;
 }
 
+.blog {
+  margin-top: 100px;
+}
+
+.blog h3 span {
+  font-weight: 800;
+  color: #e94560;
+  font-size: 24px;
+}
+
+.blog .link-blog {
+  border-radius: 10px;
+}
+
+.intro-git .uncommited-git {
+  width: 30%;
+}
+
+.intro-git ul {
+  padding-right: 400px;
+}
+
+.intro-git code {
+  padding: 3px;
+  background-color: #1a1a2e;
+}
+
+.intro-git .breadcrumb-git {
+  color: #acacac;
+}
+
+.intro-git .breadcrumb-git a {
+  color: #acacac;
+}
+
+.intro-git .breadcrumb-git a:hover {
+  color: #e94560;
+  text-decoration: none;
+}
+
+.intro-git .breadcrumb-git .brd-sekarang {
+  color: #e94560;
+}
+
+.intro-git .tanda-sudah-git {
+  width: 50%;
+}
+
+.intro-git .intro-git-awal {
+  padding-right: 400px;
+}
+
+.intro-git .link-git-wpu {
+  color: #e94560;
+}
+
+.intro-git h3 span {
+  font-weight: 800;
+  color: #e94560;
+  font-size: 24px;
+}
+
 #backToTop {
   position: fixed;
   display: none;
@@ -166,6 +230,18 @@ html {
   .terakhir .deskripsi-kerja {
     padding: 0 20px;
   }
+  .intro-git .uncommited-git {
+    width: 80%;
+  }
+  .intro-git ul {
+    padding-right: 40px;
+  }
+  .intro-git .tanda-sudah-git {
+    width: 90%;
+  }
+  .intro-git .intro-git-awal {
+    padding-right: 40px;
+  }
 }
 
 footer {
@@ -184,6 +260,7 @@ body {
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 

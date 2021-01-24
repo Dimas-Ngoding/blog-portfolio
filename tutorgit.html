@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Dimas.Ngoding" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Dimas.Ngoding - Dimas Andhika</title>
+    <link rel="stylesheet" href="scss/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a
+        class="navbar-brand mx-auto"
+        href="https://github.com/Dimas-Ngoding"
+        data-aos="fade-down"
+        data-aos-duration="600"
+        ><span>//</span> Dimas.Ngoding</a
+      >
+    </nav>
+
+    <section class="intro-git">
+      <div class="container text-light">
+        <p class="breadcrumb-git" data-aos="fade-up">
+          <a href="index.html">Home</a> /
+          <span class="brd-sekarang">Tutorial - Git</span>
+        </p>
+        <a
+          data-aos="fade-up"
+          href="index.html"
+          class="btn btn-outline-light mb-5 mt-2"
+          >Back To Home</a
+        >
+        <h3 data-aos="fade-up"><span>//</span> Tutorial Git</h3>
+        <p data-aos="fade-up" class="mt-4 intro-git-awal">
+          Git adalah pengelola source code yang sudah dikenal hampir oleh
+          seluruh programmer. Git ini akan membuat repository / bisa diungkapkan
+          dengan penyimpanan lokal. Di sini kalian akan belajar cara instalasi
+          dan kegunaan dasar git. Jika kalian sama sekali tidak tahu tentang git
+          kalian bisa tonton video ini
+          <a
+            href="https://youtu.be/lTMZxWMjXQU"
+            class="link-git-wpu"
+            target="_blank"
+            >Klik Disini</a
+          >
+        </p>
+        <h3 data-aos="fade-up" class="mt-5"><span>//</span> Memulai</h3>
+        <p data-aos="fade-up" class="mt-4 intro-git-awal">
+          Pertama-tama pastinya kalian download dulu gitnya. Jika sudah kalian
+          bisa buat folder dimanapun, lalu klik kanan pada foldernya. Jika sudah
+          muncul tulisan git bash here maka kalian sudah berhasil menginstall
+          gitnya.
+        </p>
+        <br />
+        <img
+          data-aos="fade-up"
+          src="img/tutor-git/git-bash-here.png"
+          alt=""
+          class="rounded tanda-sudah-git"
+        />
+        <h3 data-aos="fade-up" style="margin-top: 75px">
+          <span>//</span> Kenapa Git?
+        </h3>
+        <ul class="mt-4">
+          <li data-aos="fade-up">
+            Git adalah sistem kontrol versi yang paling umum digunakan
+          </li>
+          <li data-aos="fade-up">
+            Git melacak perubahan yang Anda buat pada file, sehingga Anda
+            memiliki catatan tentang apa yang telah dilakukan, dan Anda dapat
+            kembali ke versi tertentu jika diperlukan.
+          </li>
+          <li data-aos="fade-up">
+            Git juga membuat kolaborasi lebih mudah, memungkinkan perubahan yang
+            dilakukan oleh banyak orang untuk digabungkan menjadi satu sumber
+          </li>
+          <li data-aos="fade-up">
+            Git sudah menjadi skill wajib bagi para programmer
+          </li>
+        </ul>
+        <h3 data-aos="fade-up" class="mt-5"><span>//</span> Fungsi Dasar</h3>
+        <p data-aos="fade-up" class="mt-4 intro-git-awal">
+          Pertama-tama kita jadikan dulu folder ini sebagai local repository
+          <code>git init</code> kalian bisa ketikan ini di git bash kalian untuk
+          menjadikan folder kalian sebagai local repository
+        </p>
+        <p class="mt-4 intro-git-awal" data-aos="fade-up">
+          Langkah selanjutnya ini digunakan untuk mengcommit / menyimpan histori
+          perubahan yang kalian lakukan. Pertama-tama kalian coba menambah file
+          atau folder terlebih dahulu, lalu kalian save. Setelah itu pastinya di
+          nama folder atau file kalian akan terhighlight karena perubahan yang
+          kalian lakukan belum terdaftar di dalam git.
+        </p>
+        <br />
+        <img
+          data-aos="fade-up"
+          src="img/tutor-git/uncommited-git.png"
+          alt=""
+          class="rounded uncommited-git"
+        />
+        <p class="mt-5 intro-git-awal" data-aos="fade-up">
+          Nah cara untuk menambahkannya di git, kita bisa lakukan 2 langkah ini
+          yang pertama kalian ketik <code>git add (nama file)</code> jika file /
+          folder kalian sudah terlalu banyak kalian bisa langsung menambahnya
+          sekaligus dengan cara <code>git add .</code> Belum selesai disitu kita
+          harus menambahkannya ke commit
+          <code>git commit -m '(Pesan Kalian)'</code> Jika kalian tidak paham
+          mungkin istilahnya seperti ini.
+        </p>
+        <p class="mt-4 intro-git-awal" data-aos="fade-up">
+          Repository adalah sebuah stasiun kereta. Kita melakukan
+          <code>git add .</code> bisa diibaratkan dengan penumpang yang sedang
+          menunggu keretanya. Lalu <code>git commit</code> bisa diibaratkan
+          dengan penumpang yang tadi menunggu, sudah masuk ke dalam kereta dan
+          akan melewati stasiun-stasiun lainnya. Terimakasih, untuk penjelasan
+          mendetailnya silahkan
+          <a
+            href="https://www.youtube.com/watch?v=lTMZxWMjXQU&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf"
+            class="link-git-wpu"
+            target="_blank"
+            >Klik Disini</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer class="text-center mt-5">
+      <hr />
+      <span id="spanJAMbr"></span><br />
+      <span id="spanTH">Isi</span><br />
+      by Dimas Andhika - Jakarta
+    </footer>
+
+    <button class="btn btn-dark" id="backToTop">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-chevron-double-up"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+        />
+      </svg>
+    </button>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/blog-git.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>

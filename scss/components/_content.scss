@@ -1,5 +1,6 @@
 @import "../global";
 
+// ? Jumbotron
 .jumbotron {
   background-color: $bg;
   font-family: "Poppins", sans-serif;
@@ -26,6 +27,7 @@
   }
 }
 
+// ? Skills
 .skill {
   .card {
     padding: 35px 0;
@@ -45,6 +47,7 @@
   margin-top: 100px;
 }
 
+// ? About me
 .links {
   .abt-me {
     padding: 0 200px;
@@ -62,6 +65,7 @@
   margin-top: 100px;
 }
 
+// ? Recent Work
 .terakhir {
   a {
     width: 204.9px;
@@ -79,6 +83,65 @@
   margin-top: 100px;
 }
 
+// ? Blog
+.blog {
+  h3 {
+    span {
+      font-weight: 800;
+      color: #e94560;
+      font-size: 24px;
+    }
+  }
+  .link-blog {
+    border-radius: 10px;
+  }
+  margin-top: 100px;
+}
+
+// ! Page Tutorial GIT
+.intro-git {
+  .uncommited-git {
+    width: 30%;
+  }
+  ul {
+    padding-right: 400px;
+  }
+  code {
+    padding: 3px;
+    background-color: $bg2;
+  }
+  .breadcrumb-git {
+    a {
+      &:hover {
+        color: #e94560;
+        text-decoration: none;
+      }
+      color: #acacac;
+    }
+    .brd-sekarang {
+      color: #e94560;
+    }
+    color: #acacac;
+  }
+  .tanda-sudah-git {
+    width: 50%;
+  }
+  .intro-git-awal {
+    padding-right: 400px;
+  }
+  .link-git-wpu {
+    color: #e94560;
+  }
+  h3 {
+    span {
+      font-weight: 800;
+      color: #e94560;
+      font-size: 24px;
+    }
+  }
+}
+
+// ? Tombol Back To Top
 #backToTop {
   position: fixed;
   display: none;
@@ -86,6 +149,7 @@
   right: 20px;
 }
 
+// ! Media Query Mobile Device
 @media only screen and (max-width: 768px) {
   .jumbotron {
     .display-4 {
@@ -116,6 +180,21 @@
   .terakhir {
     .deskripsi-kerja {
       padding: 0 20px;
+    }
+  }
+
+  .intro-git {
+    .uncommited-git {
+      width: 80%;
+    }
+    ul {
+      padding-right: 40px;
+    }
+    .tanda-sudah-git {
+      width: 90%;
+    }
+    .intro-git-awal {
+      padding-right: 40px;
     }
   }
 }
