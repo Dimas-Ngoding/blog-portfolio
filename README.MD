@@ -3,13 +3,11 @@
 Website ini dibuat oleh Dimas Andhika - Dimas.Ngoding untuk keperluan pribadi. Repository ini sudah dilengkapi dengan license MIT, sehingga kalian bisa menggunakan template ini.<br>
 -Dimas Andhika
 
-<br>
 
 # Dibuat Dengan
 
 Website ini dibuat dengan HTML, SCSS (Dicompile ke CSS), Vanilla Javascript, Bootstrap. Untuk librarynya menggunakan Typed.JS dan Animate on Scroll
 
-<br>
 
 # MIT LICENSE
 
