@@ -144,7 +144,9 @@
 // ? Tombol Back To Top
 #backToTop {
   position: fixed;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-out;
   bottom: 20px;
   right: 20px;
 }

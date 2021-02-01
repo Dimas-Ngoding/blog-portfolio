@@ -14,12 +14,14 @@ var typed = new Typed(".type-target", {
 
 window.onscroll = () => {
   if (
-    document.body.scrollTop > 300 ||
-    document.documentElement.scrollTop > 300
+    document.body.scrollTop > 350 ||
+    document.documentElement.scrollTop > 350
   ) {
-    document.getElementById("backToTop").style.display = "block";
+    document.getElementById("backToTop").style.visibility = "visible";
+    document.getElementById("backToTop").style.opacity = "1";
   } else {
-    document.getElementById("backToTop").style.display = "none";
+    document.getElementById("backToTop").style.visibility = "hidden";
+    document.getElementById("backToTop").style.opacity = "0";
   }
 };
 
