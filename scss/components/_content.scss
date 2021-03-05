@@ -67,7 +67,7 @@
 
 // ? Recent Work
 .terakhir {
-  a {
+  button {
     width: 204.9px;
   }
   .deskripsi-kerja {
@@ -81,6 +81,17 @@
     }
   }
   margin-top: 100px;
+}
+
+// ? Modal
+.modal {
+  h5 {
+    span {
+      font-weight: 800;
+      color: #e94560;
+      font-size: 24px;
+    }
+  }
 }
 
 // ? Blog
@@ -142,13 +153,46 @@
 }
 
 // ! Page Tutorial SCSS
-.teks-coming {
+.intro-scss {
   h3 {
     span {
       font-weight: 800;
       color: #e94560;
       font-size: 24px;
     }
+  }
+  .call-out {
+    width: 75%;
+    border-radius: 5px;
+    background-color: $bg2;
+  }
+  .dlm-callout {
+    padding: 20px;
+  }
+  .breadcrumb-scss {
+    a {
+      &:hover {
+        color: #e94560;
+        text-decoration: none;
+      }
+      color: #acacac;
+    }
+    .brd-sekarang {
+      color: #e94560;
+    }
+    color: #acacac;
+  }
+  .intro-scss-awal {
+    padding-right: 400px;
+  }
+  .sass-compiler-png {
+    width: 75%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .img-carbon {
+    width: 30%;
+    border-radius: 5px;
   }
 }
 
@@ -208,6 +252,21 @@
     }
     .intro-git-awal {
       padding-right: 40px;
+    }
+  }
+
+  .intro-scss {
+    .call-out {
+      width: 100%;
+    }
+    .sass-compiler-png {
+      width: 100%;
+    }
+    .intro-scss-awal {
+      padding-right: 30px;
+    }
+    .img-carbon {
+      width: 100%;
     }
   }
 }

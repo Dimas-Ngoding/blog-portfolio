@@ -130,7 +130,7 @@ html {
   margin-top: 100px;
 }
 
-.terakhir a {
+.terakhir button {
   width: 204.9px;
 }
 
@@ -139,6 +139,12 @@ html {
 }
 
 .terakhir h3 span {
+  font-weight: 800;
+  color: #e94560;
+  font-size: 24px;
+}
+
+.modal h5 span {
   font-weight: 800;
   color: #e94560;
   font-size: 24px;
@@ -206,10 +212,52 @@ html {
   font-size: 24px;
 }
 
-.teks-coming h3 span {
+.intro-scss h3 span {
   font-weight: 800;
   color: #e94560;
   font-size: 24px;
+}
+
+.intro-scss .call-out {
+  width: 75%;
+  border-radius: 5px;
+  background-color: #1a1a2e;
+}
+
+.intro-scss .dlm-callout {
+  padding: 20px;
+}
+
+.intro-scss .breadcrumb-scss {
+  color: #acacac;
+}
+
+.intro-scss .breadcrumb-scss a {
+  color: #acacac;
+}
+
+.intro-scss .breadcrumb-scss a:hover {
+  color: #e94560;
+  text-decoration: none;
+}
+
+.intro-scss .breadcrumb-scss .brd-sekarang {
+  color: #e94560;
+}
+
+.intro-scss .intro-scss-awal {
+  padding-right: 400px;
+}
+
+.intro-scss .sass-compiler-png {
+  width: 75%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.intro-scss .img-carbon {
+  width: 30%;
+  border-radius: 5px;
 }
 
 #backToTop {
@@ -250,6 +298,18 @@ html {
   }
   .intro-git .intro-git-awal {
     padding-right: 40px;
+  }
+  .intro-scss .call-out {
+    width: 100%;
+  }
+  .intro-scss .sass-compiler-png {
+    width: 100%;
+  }
+  .intro-scss .intro-scss-awal {
+    padding-right: 30px;
+  }
+  .intro-scss .img-carbon {
+    width: 100%;
   }
 }
 

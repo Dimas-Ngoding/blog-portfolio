@@ -31,32 +31,177 @@
       >
     </nav>
 
-    <div class="container text-center text-light mt-5 teks-coming">
-      <h3 data-aos="fade-up"><span>//</span> Coming Soon</h3>
-      <a
-        data-aos="fade-up"
-        href="index.html"
-        class="btn btn-outline-light mb mt-4"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-box-arrow-in-left"
-          viewBox="0 0 16 16"
+    <section class="intro-scss">
+      <div class="container text-light">
+        <p class="breadcrumb-scss" data-aos="fade-up">
+          <a href="index.html">Home</a> /
+          <span class="brd-sekarang">Tutorial - SCSS</span>
+        </p>
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Apa Itu SCSS?</h3>
+        <div class="call-out mt-4" data-aos="fade-up">
+          <p class="dlm-callout">
+            SCSS adalah sebuah bahasa pra-prosesor (preprocessor) untuk CSS.
+            SCSS bukanlah bahasa pemrograman, SCSS adalah bahasa yang akan
+            membuat atau mengcompile ke CSS. SCSS memiliki fitur yang tidak
+            dimiliki CSS seperti Variabel, Nesting, mixins, inheritance, dll.
+            Fitur2 ini akan sangat membantu projek2 besar agar style sheetnya
+            lebih rapih dan terorganisir.
+          </p>
+        </div>
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Cara Kerja SCSS</h3>
+        <p class="intro-scss-awal mt-3" data-aos="fade-up">
+          Gampangnya file SCSS akan dicompile menjadi CSS. Jadi jika kalian
+          bekerja dengan SCSS kalian sudah tidak perlu lagi melihat file CSS
+          kalian. Kalian hanya perlu fokus dengan file SCSSnya. Penulisannya pun
+          mirip2 dengan CSS.
+        </p>
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Cara Compile</h3>
+        <p class="mt-3 intro-scss-awal" data-aos="fade-up">
+          Jika kalian menggunakan VSCode kalian bisa menggunakan extension yang
+          namanya Live SASS Compiler, extension otomatis akan mengcompile file
+          SCSS kita ketika di save.
+        </p>
+        <img
+          data-aos="fade-up"
+          src="img/tutor-scss/sass-compiler.png"
+          class="sass-compiler-png"
+          alt=""
+        />
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Nesting</h3>
+        <p class="mt-3" data-aos="fade-up">
+          Yang pada awalnya pada CSS kita menulis seperti ini :
+        </p>
+        <img
+          data-aos="fade-up"
+          src="img/tutor-scss/contoh-nesting.png"
+          class="img-carbon mt-3"
+          alt=""
+        />
+        <p class="mt-4" data-aos="fade-up">
+          Kita bisa menulisnya seperti ini pada SCSS:
+        </p>
+        <img
+          src="img/tutor-scss/contoh-nesting-scss.png"
+          alt=""
+          class="mt-3 img-carbon"
+          data-aos="fade-up"
+        />
+        <p class="mt-4 intro-scss-awal" data-aos="fade-up">
+          Fitur Nesting (Bersarang) pada SCSS ini menjadikan penulisan style
+          sheet kita menjadi lebih mudah dibaca dan diperbaiki. Selain selektor,
+          properti juga bisa di nesting di SCSS ini, contohnya sebagai berikut :
+        </p>
+        <img
+          src="img/tutor-scss/contoh-nesting-prop.png"
+          alt=""
+          class="mt-3 img-carbon"
+          data-aos="fade-up"
+        />
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Variable</h3>
+        <p class="mt-3 intro-scss-awal" data-aos="fade-up">
+          Dengan SCSS kalian bisa menggunakan variabel layaknya bahasa
+          pemrograman, contohnya sebagai berikut :
+        </p>
+        <img
+          src="img/tutor-scss/contoh-variable.png"
+          alt=""
+          data-aos="fade-up"
+          class="mt-3 img-carbon"
+        />
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Inheritance</h3>
+        <p class="mt-3 intro-scss-awal" data-aos="fade-up">
+          Pada SCSS kita bisa melakukan inheritance / pewarisan dengan keyword
+          <code>@extend</code> yang contohnya sebagai berikut :
+        </p>
+        <img
+          src="img/tutor-scss/contoh-inheritance.png"
+          alt=""
+          class="mt-3 img-carbon"
+          data-aos="fade-up"
+        />
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Mixins</h3>
+        <div class="call-out mt-4" data-aos="fade-up">
+          <p class="dlm-callout">
+            Mixin mirip seperti function pada bahasa pemrograman. Mixin
+            memungkinkan kita menggunakan ulang beberapa grup deklarasi CSS.
+            Pembuatan mixin dapat dilakukan dengan direktif <code>@mixin</code>,
+            lalu untuk memakainya / memanggilnya kita menggunakan direktif
+            <code>@include</code>
+          </p>
+        </div>
+        <p class="mt-3" data-aos="fade-up">Contohnya sebagai berikut:</p>
+        <img
+          src="img/tutor-scss/contoh-mixin.png"
+          alt=""
+          class="mt-3 img-carbon"
+          data-aos="fade-up"
+        />
+        <h3 class="mt-5" data-aos="fade-up"><span>//</span> Selanjutnya</h3>
+        <div class="call-out mt-4" data-aos="fade-up">
+          <p class="dlm-callout">
+            Kalian bisa mempelajari lebih dalam tentang SCSS, kalian bisa
+            mempelajari tentang operator pada SCSS, At-Rules, Flow Control,
+            Built-in modules, dll. Semua ini tersedia lengkap di dokumentasi
+            berikut
+            <a href="https://sass-lang.com/documentation" target="_blank"
+              >https://sass-lang.com/documentation</a
+            >
+          </p>
+        </div>
+        <a
+          data-aos="fade-up"
+          href="index.html"
+          class="btn btn-outline-light mb-5 mt-2"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-box-arrow-in-left"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"
+            />
+          </svg>
+          <span> </span> Back To Home</a
         >
-          <path
-            fill-rule="evenodd"
-            d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"
-          />
-          <path
-            fill-rule="evenodd"
-            d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"
-          />
-        </svg>
-        <span> </span> Back To Home</a
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+      <hr />
+      <span id="spanJAMbr"></span><br />
+      <span id="spanTH">Isi</span><br />
+      by Dimas Andhika - Jakarta
+    </footer>
+
+    <!-- BackToTop Button -->
+    <button class="btn btn-dark" id="backToTop">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-chevron-double-up"
+        viewBox="0 0 16 16"
       >
-    </div>
+        <path
+          fill-rule="evenodd"
+          d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+        />
+      </svg>
+    </button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

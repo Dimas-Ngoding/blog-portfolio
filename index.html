@@ -237,36 +237,251 @@
     <section class="terakhir">
       <div class="container text-center text-light">
         <h3 data-aos="fade-up"><span>//</span> Recent Work</h3>
-        <a
-          data-aos="fade-up"
-          href="https://dimas-ngoding.github.io"
+        <button
           class="btn btn-outline-light btn-lg mt-5"
-          target="_blank"
-          >Marketplace</a
-        ><br />
-        <a
           data-aos="fade-up"
-          href="https://github.com/Dimas-Ngoding/infofilm-bot"
-          class="btn btn-outline-light mt-4 btn-lg"
-          target="_blank"
-          >Bot Telegram</a
+          data-toggle="modal"
+          data-target="#modal-marketplace"
+        >
+          Marketplace</button
         ><br />
-        <a
-          data-aos="fade-up"
-          href="https://dimas-ngoding.github.io/direct-wa"
+        <button
           class="btn btn-outline-light btn-lg mt-4"
-          target="_blank"
-          >Direct-WA</a
-        ><br />
-        <a
           data-aos="fade-up"
-          href="https://github.com/Dimas-Ngoding/todo-list"
-          class="btn btn-outline-light btn-lg mt-4"
-          target="_blank"
-          >Note App</a
+          data-toggle="modal"
+          data-target="#modal-telegram"
+        >
+          Bot Telegram</button
         ><br />
+        <button
+          class="btn btn-outline-light btn-lg mt-4"
+          data-aos="fade-up"
+          data-toggle="modal"
+          data-target="#modal-direct"
+        >
+          Direct Wa</button
+        ><br />
+        <button
+          class="btn btn-outline-light btn-lg mt-4"
+          data-aos="fade-up"
+          data-toggle="modal"
+          data-target="#modal-note"
+        >
+          Note App
+        </button>
       </div>
     </section>
+
+    <!-- Modal Box -->
+    <!-- Modal MarketPlace -->
+    <div class="modal fade" tabindex="-1" id="modal-marketplace">
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><span>//</span> Marketplace Website</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <img src="img/market.png" alt="" class="w-100 rounded" />
+              <p>
+                Website ini saya buat dengan menggunakan bootstrap, sedikit Vue
+                dan Jquery. Sebenarnya website ini merupakan projek kelas
+                premium
+                <a href="https://buildwithangga.com/" target="_blank"
+                  >Buildwith Angga</a
+                >
+                Demonya bisa dilihat
+                <a href="https://dimas-ngoding.github.io/" target="_blank"
+                  >di sini</a
+                >
+              </p>
+              <hr />
+              <p>
+                MIT License Copyright (c) 2020 Galih Pratama Permission is
+                hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the
+                "Software"), to deal in the Software without restriction,
+                including without limitation the rights to use, copy, modify,
+                merge, publish, distribute, sublicense, and/or sell copies of
+                the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions: The
+                above copyright notice and this permission notice shall be
+                included in all copies or substantial portions of the Software.
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+                OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+                NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+                HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+                WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+                OTHER DEALINGS IN THE SOFTWARE.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Bot Telegram -->
+    <div class="modal fade" tabindex="-1" id="modal-telegram">
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><span>//</span> Bot Telegram</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <img src="img/telegram.png" alt="" class="w-100 rounded" />
+              <p class="mt-4">
+                Bot ini saya buat setelah saya menonton video tutorial 'cara
+                membuat bot telegram menggunakan javascript'. Bot ini berfungsi
+                untuk memberitahu informasi secara detail mengenai sebuah film.
+                Bot ini dibuat dengan OMDB API
+              </p>
+              <p class="mt-4">
+                Bisa dilihat dokumentasinya
+                <a href="http://www.omdbapi.com/" target="_blank"> di sini</a>,
+                dan untuk demo bot telegramnya bisa dilihat
+                <a
+                  href="https://www.instagram.com/dimas.ngoding/"
+                  target="_blank"
+                  >di sini</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Direct-Wa -->
+    <div class="modal fade" tabindex="-1" id="modal-direct">
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><span>//</span> Direct Whatsapp</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <img src="img/direct.png" alt="" class="w-100 rounded" />
+              <p class="mt-4">
+                Direct-Wa adalah sebuah web yang memungkinkan kita untuk
+                mengirimkan whatsapp kepada nomor yang belum kita simpan.
+                Website ini dibuat menggunakan Javascript sederhana yang demonya
+                bisa dilihat di
+                <a
+                  href="https://dimas-ngoding.github.io/direct-wa/"
+                  target="_blank"
+                  >sini</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Note App -->
+    <div class="modal fade" tabindex="-1" id="modal-note">
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><span>//</span> Note App</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <img src="img/note.png" alt="" class="w-100 rounded" />
+              <p class="mt-4">
+                Ini merupakan website untuk menyimpan catatan, website ini saya
+                buat setelah saya selesai belajar mengenai Document Object
+                Model. Demo website ini bisa dilihat
+                <a
+                  href="https://www.instagram.com/dimas.ngoding/"
+                  target="_blank"
+                  >di sini</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Section Blog -->
     <section class="blog">
