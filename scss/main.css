@@ -92,6 +92,10 @@ html {
   margin-top: 100px;
 }
 
+.skill #btnSelengkapnya {
+  margin: 0 200px;
+}
+
 .skill .card {
   padding: 35px 0;
   border-radius: 10px;
@@ -281,6 +285,9 @@ html {
   .jumbotron .lead {
     padding: 0 20px;
     font-size: 12px;
+  }
+  .skill #btnSelengkapnya {
+    margin: 0 30px;
   }
   .skill .card .row:nth-child(2) img {
     margin-top: 50px;
